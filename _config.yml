@@ -14,12 +14,17 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 江上酒 # the main title
+title: 孔乙己 # the main title
 
-tagline: 谁知江上酒，还与故人倾 # it will display as the sub-title
+tagline: >
+  初从文，三年不中；
+  后习武，校场发一矢，中鼓吏，逐之出；
+  又从商，一遇骗，二遇盗，三遇匪；
+  遂躬耕，一岁大旱，一岁大涝，一岁飞蝗；
+  乃学医，有所成。自撰一良方，服之，卒。
 
 description: >- # used by seo meta and the atom feed
-  核动力牛马
+  孔乙己
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +39,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: 江上酒
+  name: 孔乙己
   email: laplacehurt@gmail.com# change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -136,7 +141,7 @@ kramdown:
     css_class: highlight
     # default_lang: console
     span:
-      line_numbers: false
+      line_numbers: true
     block:
       line_numbers: true
       start_line: 1
@@ -151,7 +156,7 @@ defaults:
       path: "" # An empty string here means all files in the project
       type: posts
     values:
-      layout: post
+      layout: Category
       comments: true # Enable comments in posts.
       toc: true # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
